@@ -1,0 +1,59 @@
+///$tab Списания
+//concatenate("Таблица фактов")
+Списания_tmp:
+LOAD
+    //WriteOffKey,
+    //AutoNumberHash128(Дата,"Код товара","Код компании") as keyWriteOff,
+    //Дата,
+    Year(Дата) as Год,
+    Week(Дата) as Неделя,
+    "Код товара",
+    "Код площадки",
+    "Код шаблона",
+    "Количество списания",
+    "Сумма списания"
+FROM [lib://Data/Magnum/Списания/Списания_*.qvd]//[lib://QlikViewProjects/02 QVDB/02 Indicators Base/Списания/Списания_*.qvd]
+(qvd)
+//<времено для легкой работы
+where  
+Week(Дата) = 1
+  or  Week(Дата) = 2
+  or  Week(Дата) = 3
+  or  Week(Дата) = 4
+  or  Week(Дата) = 5
+  or  Week(Дата) = 6
+or Week(Дата) = 7
+  or  Week(Дата) = 8
+  or  Week(Дата) = 9
+  or  Week(Дата) = 10
+  or  Week(Дата) = 11
+  or  Week(Дата) = 12
+  or  Week(Дата) = 13
+  or  Week(Дата) = 14
+  or  Week(Дата) = 15
+//>времено для легкой работы  
+;
+
+left join (Списания_tmp)
+load 
+	"Код площадки",
+    "Код компании"
+resident Филиалы_tmp;
+
+drop field "Код площадки" from Списания_tmp;
+
+Списания:
+NoConcatenate
+Load AutoNumberHash128(Неделя,Год,"Код товара","Код компании") as keyWriteOff,
+	 "Код шаблона",
+     sum("Количество списания") 	as "Количество списания",
+     sum("Сумма списания") 			as "Сумма списания с НДС",
+     sum("Сумма списания") / 1.12 	as "Сумма списания без НДС"
+resident Списания_tmp
+group by Неделя,
+		 Год,
+         "Код компании",
+         "Код товара",
+         "Код шаблона";
+
+drop table Списания_tmp;

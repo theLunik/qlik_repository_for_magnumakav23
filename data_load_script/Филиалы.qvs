@@ -1,0 +1,56 @@
+///$tab Филиалы
+left join(Филиалы_tmp)
+Форматы:
+LOAD
+    "Код площадки",
+    Формат
+FROM  [lib://Data/Magnum/Форматы/Форматы.qvd]//[lib://QlikViewProjects/02 QVDB/01 Dictionaries/Форматы/Форматы.qvd]
+(qvd);
+
+left join(Филиалы_tmp)
+Регионы:
+LOAD
+    //№,
+    Филиал as "Аббр. филиала",
+    //Формат,
+    Город,
+    //"Начало работы",
+    //Наименование_1С,
+    //SPRUT,
+    //QV,
+    Регион_ОД as Регион
+FROM [lib://Data/Magnum/QS Data/File Data/ТК_группировка.xlsx]//[lib://File Data/ТК_группировка.xlsx]
+(ooxml, embedded labels, table is ТК_инф);
+
+left join(Филиалы_tmp)
+Координаты:
+LOAD
+	Distinct
+    "Код компании",
+    Широта,
+    Долгота
+FROM [lib://Data/Magnum/Координаты торговых залов.xlsx]
+(ooxml, embedded labels, table is Sheet1)
+where not IsNull(Широта);
+
+
+Филиалы:
+Load
+	distinct
+	"Код компании",
+    Филиал,
+    "Аббр. филиала",
+    Формат,
+    Город,
+    Регион,
+    GeoMakePoint([Широта],[Долгота]) as [Координаты_филиала],
+    Широта,
+    Долгота
+Resident Филиалы_tmp;
+
+
+TAG FIELD [Филиал] WITH '$geoname', '$relates_Координаты_филиала';
+TAG FIELD [Координаты_филиала] WITH '$geopoint', '$relates_Филиал';
+
+
+drop table Филиалы_tmp;

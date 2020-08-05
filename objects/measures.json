@@ -1,0 +1,270 @@
+[
+  {
+    "qInfo": {
+      "qId": "055b4a90-6a7f-457e-b2e9-6f9a253b3362",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "LFL Кол-во продаж",
+      "qDef": "Sum({<$(=vWY)>}  [Количество продаж])/Sum({<$(=vPrevWY)>} [Количество продаж]) -1",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#85728e",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "LFL Кол-во продаж",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "JYwPBxM",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "СОФ пр. год",
+      "qDef": "Sum({<$(=vPrevWY), [Отдел] = {'F15 ОВОЩИ, ФРУКТЫ, ЯГОДЫ, ГРИБЫ'} >} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vPrevWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='СОФ ' & vPrevYear",
+      "coloring": {
+        "baseColor": {
+          "color": "#a0eea1",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "СОФ пр. год",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KJSRByq",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "LFL",
+      "qDef": "Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vPrevWY)>} [Сумма продаж по ПЦ с НДС]) -1",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#7b7a78",
+          "index": 13
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "LFL",
+      "description": "LFL  для  Сумма продаж по ПЦ с НДС\nс неделей прошлого года",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PsjBhS",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "СОФ тек. год",
+      "qDef": "Sum({<$(=vWY), [Отдел] = {'F15 ОВОЩИ, ФРУКТЫ, ЯГОДЫ, ГРИБЫ'} >} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='СОФ ' & vMaxYear",
+      "coloring": {
+        "baseColor": {
+          "color": "#43c638",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "СОФ тек. год",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "SKhvFQ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "NF тек. год",
+      "qDef": "Sum({<$(=vWY), [Направление] = {'NonFood'} >} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='NF ' & vMaxYear",
+      "coloring": {
+        "baseColor": {
+          "color": "#795faa",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "NF тек. год",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "Yjzuf",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Выполнение  нед. плана %",
+      "qDef": "Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vWY)>} [План.Сумма продаж с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#63d5ac",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Выполнение  нед. плана %",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "b0cc7631-a39a-44b8-b2cf-413a6d251672",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Количество продаж",
+      "qDef": "Sum({<$(=vWY)>} [Количество продаж])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#644989",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Количество продаж",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cmLRPX",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Продажи с НДС",
+      "qDef": "Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#276e27",
+          "index": 3
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Продажи с НДС",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "nZdrR",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Промо",
+      "qDef": "Sum({<$(=vWY) >} [Сумма продаж по ПЦ рознично-акционная с НДС])/Sum({<$(=vWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#ffcf02",
+          "index": 8
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Промо",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ttJxr",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Списание",
+      "qDef": "Sum({<$(=vWY)>} bTemplate310_721*[Сумма списания без НДС])/Sum({<$(=vWY)>} [Сумма продаж по ПЦ без НДС])\r\n\n//bTemplate310_721*",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "coloring": {
+        "baseColor": {
+          "color": "#E01250",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Списание",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "wMWVSv",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "NF пр. год",
+      "qDef": "Sum({<$(=vPrevWY), [Направление] = {'NonFood'} >} [Сумма продаж по ПЦ с НДС])/Sum({<$(=vPrevWY)>} [Сумма продаж по ПЦ с НДС])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='NF ' & vPrevYear",
+      "coloring": {
+        "baseColor": {
+          "color": "#c0c5f1",
+          "index": -1
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "NF пр. год",
+      "description": "",
+      "tags": []
+    }
+  }
+]
