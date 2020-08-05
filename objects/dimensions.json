@@ -21,7 +21,8 @@
     "qMetaDef": {
       "title": "Месяц",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -46,7 +47,8 @@
     "qMetaDef": {
       "title": "Группа",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -70,7 +72,8 @@
     "qMetaDef": {
       "title": "Регион->Филиал",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -95,7 +98,8 @@
     "qMetaDef": {
       "title": "Признак акционности",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -120,7 +124,8 @@
     "qMetaDef": {
       "title": "Страна происхождения",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -145,7 +150,8 @@
     "qMetaDef": {
       "title": "Отдел",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -170,7 +176,8 @@
     "qMetaDef": {
       "title": "Квартал",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -195,7 +202,8 @@
     "qMetaDef": {
       "title": "Поставщик импортный",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -220,7 +228,8 @@
     "qMetaDef": {
       "title": "Филиал",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -245,7 +254,8 @@
     "qMetaDef": {
       "title": "Производитель",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -270,7 +280,8 @@
     "qMetaDef": {
       "title": "Регион",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -295,7 +306,8 @@
     "qMetaDef": {
       "title": "Город",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -320,7 +332,8 @@
     "qMetaDef": {
       "title": "Неделя",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -343,7 +356,8 @@
     "qMetaDef": {
       "title": "Город-Филиал",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -367,7 +381,8 @@
     "qMetaDef": {
       "title": "Год",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -392,7 +407,8 @@
     "qMetaDef": {
       "title": "Товар",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -417,7 +433,8 @@
     "qMetaDef": {
       "title": "Импортный",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -442,7 +459,8 @@
     "qMetaDef": {
       "title": "Тип продажи",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -467,7 +485,8 @@
     "qMetaDef": {
       "title": "Направление",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -492,7 +511,8 @@
     "qMetaDef": {
       "title": "Поставщик",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -517,7 +537,8 @@
     "qMetaDef": {
       "title": "Подгруппа",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   }
 ]

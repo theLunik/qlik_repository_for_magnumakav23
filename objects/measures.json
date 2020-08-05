@@ -20,7 +20,8 @@
     "qMetaDef": {
       "title": "LFL Кол-во продаж",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -45,7 +46,8 @@
     "qMetaDef": {
       "title": "СОФ пр. год",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -69,7 +71,8 @@
     "qMetaDef": {
       "title": "LFL",
       "description": "LFL  для  Сумма продаж по ПЦ с НДС\nс неделей прошлого года",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -94,7 +97,8 @@
     "qMetaDef": {
       "title": "СОФ тек. год",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -119,7 +123,8 @@
     "qMetaDef": {
       "title": "NF тек. год",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -143,7 +148,8 @@
     "qMetaDef": {
       "title": "Выполнение  нед. плана %",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -167,7 +173,8 @@
     "qMetaDef": {
       "title": "Количество продаж",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -191,7 +198,8 @@
     "qMetaDef": {
       "title": "Продажи с НДС",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -215,7 +223,8 @@
     "qMetaDef": {
       "title": "Промо",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -239,7 +248,8 @@
     "qMetaDef": {
       "title": "Списание",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   },
   {
@@ -264,7 +274,8 @@
     "qMetaDef": {
       "title": "NF пр. год",
       "description": "",
-      "tags": []
+      "tags": [],
+      "isBlueprintItem": true
     }
   }
 ]

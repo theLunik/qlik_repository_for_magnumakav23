@@ -7,9 +7,10 @@
       },
       "qMetaDef": {
         "title": "ДАШБОРД (1)",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.0096875,
+      "rank": -0.000096875,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/appcontent/49873ad5-3e49-4bdf-bbb5-92cd97976f17/sheet_thumb_3a14ce9c-4127-4540-a7ee-e954c686a920-0.2327207183277109.png"
@@ -4257,9 +4258,10 @@
       },
       "qMetaDef": {
         "title": "СОПОСТАВЛЕНИЕ ДВУХ ПОКАЗАТЕЛЕЙ",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.00625,
+      "rank": -0.0000625,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/content/Default/11_Thumbnail.png"
@@ -5142,9 +5144,10 @@
       },
       "qMetaDef": {
         "title": "АНАЛИЗ СЕЗОННОСТИ",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.009375,
+      "rank": -0.00009375,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/content/Default/chart-bar_ABC.png"
@@ -6332,9 +6335,10 @@
       },
       "qMetaDef": {
         "title": "ДИНАМИКА ПО НЕДЕЛЯМ",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.00953125,
+      "rank": -0.00009531249999999999,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/appcontent/49873ad5-3e49-4bdf-bbb5-92cd97976f17/sheet_thumb_57e5b3ca-787f-4346-87a3-1e6a0bae6a0d-0.17864440675003013.png"
@@ -7499,9 +7503,10 @@
       },
       "qMetaDef": {
         "title": "ДАШБОРД",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.01,
+      "rank": -0.0001,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/appcontent/49873ad5-3e49-4bdf-bbb5-92cd97976f17/sheet_thumb_752b1266-a591-4dde-bf8a-4f9d2dfcc0c7-0.5245002387319786.png"
@@ -10343,7 +10348,8 @@
       },
       "qMetaDef": {
         "title": "My new sheet (1)",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
       "rank": 0,
       "thumbnail": {
@@ -11422,9 +11428,10 @@
       },
       "qMetaDef": {
         "title": "СРАВНЕНИЕ A-B",
-        "description": ""
+        "description": "",
+        "isBlueprintItem": true
       },
-      "rank": -0.00875,
+      "rank": -0.00008750000000000001,
       "thumbnail": {
         "qStaticContentUrlDef": {
           "qUrl": "/content/Default/10_Thumbnail.png"

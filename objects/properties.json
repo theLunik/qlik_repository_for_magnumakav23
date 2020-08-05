@@ -6,11 +6,11 @@
   "qThumbnail": {
     "qUrl": "/appcontent/49873ad5-3e49-4bdf-bbb5-92cd97976f17/Magnum лого3.jpg"
   },
+  "description": "",
+  "stream": null,
+  "dynamicColor": "",
   "createdDate": "2020-05-27T10:31:42.561Z",
   "modifiedDate": "2020-05-27T10:31:56.889Z",
   "published": false,
-  "publishTime": "1753-01-01T00:00:00.000Z",
-  "description": "",
-  "dynamicColor": "",
-  "stream": null
+  "publishTime": "1753-01-01T00:00:00.000Z"
 }

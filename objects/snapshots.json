@@ -7,7 +7,8 @@
     "qMetaDef": {
       "title": "",
       "description": "",
-      "annotation": ""
+      "annotation": "",
+      "isBlueprintItem": true
     },
     "creationDate": "2020-05-26T09:24:34.883Z",
     "snapshotData": {

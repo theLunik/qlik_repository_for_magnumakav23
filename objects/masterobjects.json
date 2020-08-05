@@ -8,7 +8,8 @@
       "qMetaDef": {
         "title": "Сопоставление двух показателей",
         "description": "",
-        "tags": []
+        "tags": [],
+        "isBlueprintItem": true
       },
       "qHyperCubeDef": {
         "qDimensions": [
@@ -493,7 +494,8 @@
       "qMetaDef": {
         "title": "vis 1",
         "description": "",
-        "tags": []
+        "tags": [],
+        "isBlueprintItem": true
       },
       "qChildListDef": {
         "qData": {

@@ -6,7 +6,8 @@
     },
     "qMetaDef": {
       "title": "Неделя 15",
-      "description": ""
+      "description": "",
+      "isBlueprintItem": true
     },
     "creationDate": "2020-05-26T17:44:43.401Z",
     "sheetId": "752b1266-a591-4dde-bf8a-4f9d2dfcc0c7",

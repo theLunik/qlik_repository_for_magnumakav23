@@ -4,7 +4,9 @@
       "qId": "06260ad3-b16e-4429-bbd8-6faab72626fb",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vMaxYear",
     "qNumberPresentation": {
       "qType": "U",
@@ -19,7 +21,9 @@
       "qId": "23cd4395-5a6f-46d9-8461-71cffb061649",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vMeasure",
     "qNumberPresentation": {
       "qType": "U",
@@ -33,7 +37,9 @@
       "qId": "48ad9d3a-95a3-4374-86dd-5d6b39c28451",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vWY",
     "qNumberPresentation": {
       "qType": "U",
@@ -48,7 +54,9 @@
       "qId": "5fba0f74-c356-4922-bb3f-97c19cb0d250",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vPrevWY",
     "qNumberPresentation": {
       "qType": "U",
@@ -63,7 +71,9 @@
       "qId": "625bf241-aa43-4893-9730-f7cf7b2d91f7",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vY",
     "qNumberPresentation": {
       "qType": "U",
@@ -77,7 +87,9 @@
       "qId": "6dd636bd-511e-41cf-b976-b699aa3e51fb",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vPYWeek",
     "qNumberPresentation": {
       "qType": "U",
@@ -91,7 +103,9 @@
       "qId": "823e210c-280a-45c9-bd86-d5c55aa0b709",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vMeasureType",
     "qNumberPresentation": {
       "qType": "U",
@@ -105,7 +119,9 @@
       "qId": "9800704e-0231-4dc7-9aa8-3c70130fe977",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vPrevYear",
     "qNumberPresentation": {
       "qType": "U",
@@ -120,7 +136,9 @@
       "qId": "98967932-98ce-4b65-be27-98f04b5235c8",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vDimensionSeason",
     "qNumberPresentation": {
       "qType": "U",
@@ -134,7 +152,9 @@
       "qId": "bff18571-1a5c-48ee-9bcd-795d70261100",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vX",
     "qNumberPresentation": {
       "qType": "U",
@@ -148,7 +168,9 @@
       "qId": "df818c45-e739-4716-b75e-39a2bb191abb",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "=Aa12 s",
     "qComment": "asdad",
     "qNumberPresentation": {
@@ -164,7 +186,9 @@
       "qId": "e360f5b1-edbf-4658-8255-1a948d591a43",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vMaxWeek",
     "qNumberPresentation": {
       "qType": "U",
@@ -178,7 +202,9 @@
       "qId": "ed4f520d-5fbc-4cbd-afaa-f86092056e8e",
       "qType": "variable"
     },
-    "qMetaDef": {},
+    "qMetaDef": {
+      "isBlueprintItem": true
+    },
     "qName": "vGroupDim",
     "qNumberPresentation": {
       "qType": "U",
